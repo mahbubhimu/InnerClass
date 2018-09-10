@@ -12,6 +12,7 @@ class Constructor_Test{
         System.out.println(a+ " "+b+" "+c);
     }
     //Constructor without parameter
+    // Constructor has no return type
     Constructor_Test(){
         id  = 10;
         gpa = 3.11;
@@ -25,6 +26,7 @@ class Constructor_Test{
 }
 public class demo{
     public static void main(String[] args) {
+       // Constructor will automatically called when object is created
         Constructor_Test objwp = new Constructor_Test();
         Constructor_Test obj = new Constructor_Test(8,3.11,"Mamunur Rahman Chowdhury");
     }
