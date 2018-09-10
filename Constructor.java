@@ -25,6 +25,7 @@ class Constructor_Test{
 }
 public class demo{
     public static void main(String[] args) {
+       // Constructor will automatically called when object is created
         Constructor_Test objwp = new Constructor_Test();
         Constructor_Test obj = new Constructor_Test(8,3.11,"Mamunur Rahman Chowdhury");
     }
