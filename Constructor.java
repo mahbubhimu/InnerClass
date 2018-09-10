@@ -12,6 +12,7 @@ class Constructor_Test{
         System.out.println(a+ " "+b+" "+c);
     }
     //Constructor without parameter
+    // Constructor has no return type
     Constructor_Test(){
         id  = 10;
         gpa = 3.11;
